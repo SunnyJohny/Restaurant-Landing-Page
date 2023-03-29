@@ -54,11 +54,11 @@ const Navbar = () => {
       icon: <PhoneRoundedIcon />,
       path: "/contact",
     },
-    {
-      text: "Cart",
-      icon: <ShoppingCartRoundedIcon />,
-      path: "/cart",
-    },
+    // {
+    //   text: "Cart",
+    //   icon: <ShoppingCartRoundedIcon />,
+    //   path: "/cart",
+    // },
   ];
   return (
     <nav>
@@ -73,9 +73,9 @@ const Navbar = () => {
 
         <a href="/testimonial">Testimonials</a>
         <a href="/contact">Contact</a>
-        <a href="/contact">
+        {/* <a href="/contact">
           <BsCart2 className="navbar-cart-icon" />
-        </a>
+        </a> */}
 
         <button className="primary-button">Bookings Now</button>
       </div>
