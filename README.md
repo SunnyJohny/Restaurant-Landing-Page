@@ -1,5 +1,7 @@
 A simple landing page - first designed in figma and then coded in React. Hope you like it.
-Dockerizing an Application README
+
+
+Dockerizing landing page WebSite
 This README provides instructions on how to build and run an application using Docker. Docker is a platform that enables developers to build, package, and deploy applications in a containerized environment. Containerization allows for greater flexibility and portability, as applications can be deployed consistently across different environments without the need for extensive configuration.
 
 Prerequisites
