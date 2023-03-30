@@ -30,7 +30,7 @@ nav {
   min-height: 90px;
   top:0;
   position: sticky;
-  padding: 20px;
+  /* padding: 20px; */
   
 }
 .navbar-menu-container {
@@ -92,28 +92,6 @@ ul{
   align-items: flex-start;
 }
 
-/* .menu-container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-
-.menu-item {
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
-  margin: 10px;
-  padding: 10px;
-  max-width: 300px;
-  width: 100%;
-}
-
-.menu-item img {
-  display: block;
-  margin: auto;
-  max-width: 100%;
-} */
-
 .menu-item{
   cursor: pointer;
   font-weight: bold;
@@ -136,28 +114,7 @@ ul{
   text-align: center;
 }
 
-/* .menu-item p {
-  font-size: 1rem;
-  margin: 10px 0;
-  text-align: center;
-}
 
-.menu-item button {
-  background-color: #2196f3;
-  border: none;
-  border-radius: 4px;
-  color: white;
-  cursor: pointer;
-  font-size: 1rem;
-  margin-top: 10px;
-  padding: 10px;
-  width: 100%;
-  display: none;
-}
-
-.menu-item button:hover {
-  background-color: #ff768f;
-}*/
 .menu-subheading{
   display:flex;
   align-items:center;
@@ -252,6 +209,10 @@ font-weight: 300;
   margin-top: 2rem;
   display: flex;
 }
+.my-text strong {
+  font-weight: bold;
+  color: rgb(246, 156, 173);
+}
 .watch-video-button {
   margin-left: 2rem;
   background-color: transparent;
@@ -338,7 +299,7 @@ button[type="submit"]:hover {
 .footer-wrapper {
   margin: 6rem 0rem;
   display: flex;
-  margin-top: 10rem;
+  /* margin-top: 10rem; */
 }
 .footer-logo-container {
   max-width: 110px;
@@ -400,9 +361,9 @@ button[type="submit"]:hover {
 .testimonial-section-bottom h2 {
   margin-top: 1.5rem;
 }
-.work-section-wrapper {
-  /* margin-top: 5rem; */
-}
+ .work-section-wrapper {
+   margin-top: 5rem;
+} 
 .work-section-top p {
   text-align: center;
   max-width: 600px !important;

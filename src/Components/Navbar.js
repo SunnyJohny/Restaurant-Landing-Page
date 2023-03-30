@@ -1,7 +1,7 @@
-/* eslint-disable jsx-a11y/anchor-is-valid */
+
 import React, { useState } from "react";
 import Logo from "../Assets/Logo.svg";
-import { BsCart2 } from "react-icons/bs";
+
 import { HiOutlineBars3 } from "react-icons/hi2";
 import Box from "@mui/material/Box";
 import Drawer from "@mui/material/Drawer";
@@ -16,7 +16,7 @@ import InfoIcon from "@mui/icons-material/Info";
 import FastfoodIcon from "@mui/icons-material/Fastfood";
 import CommentRoundedIcon from "@mui/icons-material/CommentRounded";
 import PhoneRoundedIcon from "@mui/icons-material/PhoneRounded";
-import ShoppingCartRoundedIcon from "@mui/icons-material/ShoppingCartRounded";
+// import ShoppingCartRoundedIcon from "@mui/icons-material/ShoppingCartRounded";
 import { useNavigate } from "react-router-dom";
 
 const Navbar = () => {
@@ -54,11 +54,6 @@ const Navbar = () => {
       icon: <PhoneRoundedIcon />,
       path: "/contact",
     },
-    // {
-    //   text: "Cart",
-    //   icon: <ShoppingCartRoundedIcon />,
-    //   path: "/cart",
-    // },
   ];
   return (
     <nav>
@@ -73,11 +68,12 @@ const Navbar = () => {
 
         <a href="/testimonial">Testimonials</a>
         <a href="/contact">Contact</a>
-        {/* <a href="/contact">
-          <BsCart2 className="navbar-cart-icon" />
-        </a> */}
 
+        <a href="/contact" style={{display: 'inline-block'}}>
         <button className="primary-button">Bookings Now</button>
+</a>
+
+        
       </div>
       <div className="navbar-menu-container">
         <HiOutlineBars3 onClick={() => setOpenMenu(true)} />

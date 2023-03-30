@@ -7,10 +7,9 @@ import Contact from "./Components/Contact";
 import Footer from "./Components/Footer";
 import Navbar from "./Components/Navbar";
 import { Route, Routes } from "react-router-dom";
-import { toast, ToastContainer } from "react-toastify";
+import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
-// import Menu from "./Components/Menu";
-import POSPage from "./Components/Menu";
+
 import Menu from "./Components/Menu";
 
 function App() {
@@ -21,11 +20,7 @@ function App() {
 
       <Routes>
         <Route path="/" element={<Home />} />
-        {/* <Route
-         
-          path="/menu"
-          element={ <Menu open={true} />}
-        /> */}
+
         <Route path="/menu" element={<Menu />} />
 
         <Route path="/about" element={<About />} />
@@ -37,8 +32,6 @@ function App() {
       </Routes>
       <Footer />
     </div>
-
-    
   );
 }
 
